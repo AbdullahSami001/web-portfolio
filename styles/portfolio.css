@@ -137,8 +137,24 @@ footer{
 
     background: #FFF8F3;
     padding: 130px 150px;
+    gap: 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items:  bottom right;
     margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input, 
+textarea{
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    align-items: center;
 }
