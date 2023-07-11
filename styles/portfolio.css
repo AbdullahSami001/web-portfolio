@@ -50,7 +50,8 @@ nav a{
 }
 /* header related styles */
 .header{
-    background-color: #fff8ff;
+    background-color: #FFF8F3;
+    ;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -130,4 +131,14 @@ font-weight: 700;
 .download-cv{
     text-align: center;
     margin-top: 30px;
+}
+/* footer style */
+footer{
+
+    background: #FFF8F3;
+    padding: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
 }
